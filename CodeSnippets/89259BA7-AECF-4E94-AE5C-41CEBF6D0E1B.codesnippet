@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>init_collectionView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>  self.&lt;#property#&gt;= ({
+
+        CGFloat cardWidth = &lt;#width#&gt;;
+        CGFloat cardHeight = &lt;#height#&gt;;
+        UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
+        layout.minimumLineSpacing = &lt;#lineSpacing#&gt;;
+        layout.itemSize = (CGSize){cardWidth, cardHeight};
+        layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
+        UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:layout];
+        collectionView.backgroundColor = [UIColor grayColor];
+        collectionView.showsVerticalScrollIndicator = NO;
+        collectionView.showsHorizontalScrollIndicator = NO;
+        collectionView.scrollsToTop = NO;
+        collectionView.delegate = self;
+        collectionView.dataSource = self;
+        [collectionView registerClass:&lt;#(nullable Class)#&gt; forCellWithReuseIdentifier:&lt;#(nonnull NSString *)#&gt;];
+        collectionView;
+    });</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>89259BA7-AECF-4E94-AE5C-41CEBF6D0E1B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>xtc_init_collectionView</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>xtc_init_collectionView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

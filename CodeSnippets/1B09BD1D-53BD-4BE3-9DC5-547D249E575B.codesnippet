@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>xtc_init_imageView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>self.&lt;#property#&gt; = ({
+        UIImageView *imageView = [[UIImageView alloc] init];
+        imageView.backgroundColor = [UIColor lppz_darkGreenColor];
+        imageView.contentMode = UIViewContentModeScaleAspectFill;
+        imageView.layer.cornerRadius = &lt;#radius#&gt;;
+        imageView.layer.masksToBounds = YES;
+        imageView.layer.borderColor = [UIColor whiteColor].CGColor;
+        imageView.layer.borderWidth = &lt;#width#&gt;;
+        imageView;
+    });</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1B09BD1D-53BD-4BE3-9DC5-547D249E575B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>xtc_init_UIImageView</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>xtc_init_UIImageView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
